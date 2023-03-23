@@ -1,18 +1,11 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
-import { HttpModule } from '@angular/http';
-
 import { AppComponent } from './app.component';
 import { ProductPageComponent } from './product-page/product-page.component';
-import { AnuragComponent } from './anurag/anurag.component';
 import { ProductDescriptionComponent } from './product-description/product-description.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProductPageComponent,
-    AnuragComponent,
     ProductDescriptionComponent
   ],
   imports: [
@@ -23,4 +16,4 @@ import { ProductDescriptionComponent } from './product-description/product-descr
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppM
